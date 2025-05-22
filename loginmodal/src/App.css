@@ -1,0 +1,29 @@
+.modelOverLay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: none;
+}
+.modalDiv{
+  width: 320px;
+  height: 320px;
+  background-color: white;
+  position: fixed;
+  left: 50%;
+  top: -500px;
+  transition: 0.3s;
+  transform: translate(-50%, -50%);
+}
+.en{
+  position: fixed;
+  right: -30px;
+  top: 100px;
+  transform: rotate(90deg);
+}
+.modalshow{
+  display: block;
+}
+.showmodaldiv{
+  top: 50%;
+}
